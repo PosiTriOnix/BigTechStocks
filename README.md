@@ -15,12 +15,18 @@ El objetivo es **analizar los precios históricos de acciones de empresas tecnol
 
 ## 📂 Estructura del repositorio
 Proyecto3_BigTechStocks/
+
 │
-├── Proyecto3_Stocks_Gaby.ipynb   # Notebook principal en Google Colab
-├── data/                         # Datasets (o link a Kaggle/Drive si son muy grandes)
-├── images/                       # Gráficas exportadas para presentación
-├── README.md                     # Este archivo
-└── requirements.txt              # (Opcional) librerías necesarias
+
+├── Proyecto3_Stocks_Gaby.ipynb  -  Notebook principal en Google Colab
+
+├── data/                        - Datasets
+
+├── images/ - Gráficas exportadas para presentación
+
+├── README.md - Este archivo
+
+└── requirements.txt - (Opcional) librerías necesarias
 
 ---
 
@@ -63,9 +69,3 @@ Haz clic aquí para abrir el notebook en Colab:
 ## 🖼️ Ejemplo de visualización
 ![Ejemplo gráfico de correlación](images/correlacion.png)
 
----
-
-## 📝 Notas
-- Dataset: [Kaggle – Big Tech Stock Prices](https://www.kaggle.com/).  
-- Los archivos originales `.xlsx` están en `/data`.  
-- Se recomienda trabajar con la versión `.parquet` para mayor velocidad en Colab.  
